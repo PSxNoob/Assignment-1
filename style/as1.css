@@ -108,7 +108,7 @@ body{
 
 
 .mid-title{
-    font-family: Merriweather;
+    font-family: "Merriweather";
     color: #FFF;
     font-style: normal;
     font-weight: 100;
@@ -150,4 +150,41 @@ body{
    
 }
 
+.address-content1{
+    position: absolute;
+    top: 2316px;
+    left: 120px;
+    width: 1320px;
+    height: 600px;
+    border-radius: 10px;
+    background: rgba(255, 0, 0, 0.068);
+    font-size: 24px;  
+}
+
+.address-content2{
+   position: relative;
+
+}
+.address-content3{
+    position: absolute;
+
+}
+
+.address-content3 span {
+    color: #F00;
+  }
+  
+.address-btn{
+    color: white;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    gap: 10px;
+    background-color: #F00;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+  }
 
